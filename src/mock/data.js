@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: '',
+  paragraphOne: 'I am a Full stack developer with a background in Organics. I learned a lot about problem solving through working to improve delivery of organic produce to consumers. ',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
@@ -48,9 +48,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work with me?',
-  btn: 'Send an email',
-  email: 'ianmontogmery@posteo.net',
+  cta: "Let's work on something togther!",
+  btn: 'Send me an email',
+  email: 'ianmontgomery@posteo.net',
 };
 
 // FOOTER DATA

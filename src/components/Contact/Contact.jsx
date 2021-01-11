@@ -14,9 +14,7 @@ const Contact = () => {
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
+            <p className="contact-wrapper__text">{cta}</p>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -25,6 +23,29 @@ const Contact = () => {
             >
               {btn || "Let's Talk"}
             </a>
+            <p className="contact-wrapper__text">Or use the form below</p>
+            <div>
+              <form name="contact" method="POST" data-netlify="true">
+                <p className="contact-wrapper__text">
+                  <label>
+                    Your Name: <input type="text" name="name" />
+                  </label>
+                </p>
+                <p className="contact-wrapper__text">
+                  <label>
+                    Your Email: <input type="email" name="email" />
+                  </label>
+                </p>
+                <p className="contact-wrapper__text">
+                  <label>
+                    Message: <textarea name="message"></textarea>
+                  </label>
+                </p>
+                <p className="contact-wrapper__text">
+                  <button type="submit">Send Message</button>
+                </p>
+              </form>
+            </div>
           </div>
         </Fade>
       </Container>
