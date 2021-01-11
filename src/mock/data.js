@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: 'I am a Full stack developer with a background in Organics. I learned a lot about problem solving through working to improve delivery of organic produce to consumers. ',
-  paragraphTwo: '',
+  paragraphOne: 'I am a full stack developer with a background in Organics. Through years of experience in Organic retail I learned a lot about problem solving through working to improve the delivery of organic produce to consumers.',
+  paragraphTwo: 'Now I am taking my passion for problem solving to the world of tech.',
   paragraphThree: '',
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
+  cta: 'Contact me'
 };
 
 // PROJECTS DATA

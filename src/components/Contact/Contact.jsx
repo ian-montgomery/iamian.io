@@ -18,11 +18,12 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
+              className="cta-btn cta-btn--about"
               href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/ian-montgomery/'}
             >
               {btn || "Let's Talk"}
             </a>
+            <br/>
             <p className="contact-wrapper__text">Or use the form below</p>
             <div>
               <form name="contact" method="POST" data-netlify="true">
