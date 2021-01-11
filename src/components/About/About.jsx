@@ -59,13 +59,11 @@ const About = () => {
                     >
                       Resume
                     </a>
-                  </span>
-                )}
-                <span className="d-flex mt-3">
-                  <Link className="cta-btn cta-btn--about" to="contact" smooth duration={1000}>
+                    <Link className="cta-btn cta-btn--about" to="contact" smooth duration={1000}>
                     {cta}
                   </Link>
-                </span>
+                  </span>
+                )}
               </div>
             </Fade>
           </Col>

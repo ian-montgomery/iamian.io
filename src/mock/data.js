@@ -12,15 +12,16 @@ export const heroData = {
   title: 'Hello, my name is',
   name: 'Ian',
   subtitle: "I'm a full stack developer.",
-  cta: 'Get to know me',
+  ctaAbout: 'Get to know me',
+  ctaPojects: 'See some of my work'
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: 'I am a full stack developer with a background in Organics. Through years of experience in Organic retail I learned a lot about problem solving through working to improve the delivery of organic produce to consumers.',
-  paragraphTwo: 'Now I am taking my passion for problem solving to the world of tech.',
-  paragraphThree: '',
+  paragraphOne: 'I used to sell vegetables and now I make things with computers. I am a full stack developer with a background in Organics who wants to help you solve some problems and make some things.',
+  paragraphTwo: '',
+  paragraphThree: "Let's work on something together.",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
   cta: 'Contact me'
 };
