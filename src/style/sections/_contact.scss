@@ -33,4 +33,22 @@
       }
     }
   }
+
+  .contact-form {
+    margin-top: 3.2rem;
+    backface-visibility: hidden;
+
+    input {
+      width:70%;
+    }
+
+    textarea {
+      width:70%
+    }
+
+    button {
+      font-weight: bold;
+      background: none !important;
+    }
+  }
 }

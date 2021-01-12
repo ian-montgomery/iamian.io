@@ -23,27 +23,26 @@ const Contact = () => {
             >
               {btn || "Let's Talk"}
             </a>
-            <br/>
-            <p className="contact-wrapper__text">Or use the form below</p>
-            <div>
+            <div className="contact-form">
+              <p className="contact-wrapper__text">Or use the form below</p>
               <form name="contact" method="POST" data-netlify="true">
                 <p className="contact-wrapper__text">
                   <label>
-                    Your Name: <input type="text" name="name" />
+                    Your Name: <br/><input type="text" name="name" />
                   </label>
                 </p>
                 <p className="contact-wrapper__text">
                   <label>
-                    Your Email: <input type="email" name="email" />
+                    Your Email: <br/><input type="email" name="email" />
                   </label>
                 </p>
                 <p className="contact-wrapper__text">
                   <label>
-                    Message: <textarea name="message"></textarea>
+                    Message: <br/><textarea name="message"></textarea>
                   </label>
                 </p>
                 <p className="contact-wrapper__text">
-                  <button type="submit">Send Message</button>
+                  <button className="cta-btn--about" type="submit">Send</button>
                 </p>
               </form>
             </div>

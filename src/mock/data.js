@@ -2,26 +2,25 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Ian Arthur Montgomery | Full Stack Developer', // e.g: 'Name | Developer'
+  title: 'Ian Arthur Montgomery | Full Stack Developer',
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my web portfolio', // e.g: Welcome to my website
+  description: "Welcome to Ian Arthur Montgomery's web portfolio", 
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Ian',
-  subtitle: "I'm a full stack developer.",
-  ctaAbout: 'Get to know me',
-  ctaPojects: 'See some of my work'
+  subtitle: "and I'm a full stack developer.",
+  cta: 'Get to know me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
   paragraphOne: 'I used to sell vegetables and now I make things with computers. I am a full stack developer with a background in Organics who wants to help you solve some problems and make some things.',
-  paragraphTwo: '',
-  paragraphThree: "Let's work on something together.",
+  paragraphTwo: 'I am always looking for exciting projects to work on.',
+  paragraphThree: "Let's build something together.",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
   cta: 'Contact me'
 };
