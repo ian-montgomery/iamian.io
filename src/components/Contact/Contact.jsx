@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import Form from '../Contact/Form'
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -25,7 +26,8 @@ const Contact = () => {
             </a>
             <div className="contact-form">
               <p className="contact-wrapper__text">Or use the form below</p>
-              <form name="contact" method="POST" data-netlify="true">
+              {/* <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <p className="contact-wrapper__text">
                   <label>
                     Your Name: <br/><input type="text" name="name" />
@@ -44,7 +46,8 @@ const Contact = () => {
                 <p className="contact-wrapper__text">
                   <button className="cta-btn cta-btn--about" type="submit">Send</button>
                 </p>
-              </form>
+              </form> */}
+              <Form />
             </div>
           </div>
         </Fade>
