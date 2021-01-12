@@ -1,6 +1,6 @@
 import React from 'react';
 import { navigate } from 'gatsby-link'
-import Thanks from '../Contact/Thanks'
+
 
 function encode(data) {
     return Object.keys(data)
@@ -34,7 +34,7 @@ export default function Form() {
         <form
           name="contact"
           method="post"
-          action='/thanks/'
+          action='#'
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
