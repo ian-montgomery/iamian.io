@@ -42,7 +42,7 @@ const Contact = () => {
                   </label>
                 </p>
                 <p className="contact-wrapper__text">
-                  <button className="cta-btn--about" type="submit">Send</button>
+                  <button className="cta-btn cta-btn--about" type="submit">Send</button>
                 </p>
               </form>
             </div>
