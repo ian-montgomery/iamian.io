@@ -24,8 +24,8 @@ const Contact = () => {
             >
               {btn || "Let's Talk"}
             </a>
-            <div className="contact-form">
-              <p className="contact-wrapper__text">Or use the form below</p>
+            {/* <div className="contact-form"> */}
+              {/* <p className="contact-wrapper__text">Or use the form below</p> */}
               {/* <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                 <p className="contact-wrapper__text">
@@ -49,7 +49,7 @@ const Contact = () => {
               </form> */}
               {/* <Form /> */}
             </div>
-          </div>
+          {/* </div> */}
         </Fade>
       </Container>
     </section>
