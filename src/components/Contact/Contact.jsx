@@ -47,7 +47,7 @@ const Contact = () => {
                   <button className="cta-btn cta-btn--about" type="submit">Send</button>
                 </p>
               </form> */}
-              <Form />
+              {/* <Form /> */}
             </div>
           </div>
         </Fade>
