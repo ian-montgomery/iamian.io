@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: 'I used to sell vegetables and now I make things with computers. I am a full stack developer with a background in Organics who wants to help you solve some problems and make some things.',
+  paragraphOne: 'I used to sell vegetables and now I make things with computers. I am a full stack developer with a background in management and Organic retail who wants to help you solve some problems and make some things.',
   paragraphTwo: 'I am always looking for exciting projects to work on.',
   paragraphThree: "Let's build something together.",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
