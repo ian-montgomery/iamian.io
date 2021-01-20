@@ -43,7 +43,7 @@ export const projectsData = [
     info: 'A place to chalk about anything you would like. Leave a message for the world!',
     info2: '',
     url: 'https://chalkboard-2020.herokuapp.com/',
-    repo: 'https://github.com/hihi-2020/chalkboard',
+    repo: 'https://github.com/ian-montgomery/chalkboard',
   },
 ];
 
