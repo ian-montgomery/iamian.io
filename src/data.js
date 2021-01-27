@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: 'I used to sell vegetables and now I make things with computers. I am a full stack developer with a background in management and Organic retail who wants to help you solve some problems and make some things.',
-  paragraphTwo: 'I am always looking for exciting projects to work on.',
+  paragraphOne: 'I used to sell vegetables but now I solve problems with computers. I am a full stack developer with a background in management and Organic retail who wants to help you solve some problems and make software that is a joy to use.',
+  paragraphTwo: 'I am always looking for exciting projects to work on!',
   paragraphThree: "Let's build something together.",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
   cta: 'Contact me'
@@ -49,8 +49,10 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: "Let's work on something togther!",
-  btn: 'Send me an email',
+  cta1: "Let's work on something togther!",
+  cta2: "Or fill out the contact form below",
+  btnEmail: 'Send me an email',
+  btnContact: 'Submit',
   email: 'ianmontgomery@posteo.net',
 };
 
