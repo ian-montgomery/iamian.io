@@ -50,22 +50,22 @@ export default function Form() {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p className="contact-wrapper__text">
-          <label>
+        <p>
+          <label className="contact-wrapper__text">
             Your name:
             <br />
             <input type="text" name="name" required onChange={handleChange} />
           </label>
         </p>
-        <p className="contact-wrapper__text">
-          <label>
+        <p>
+          <label className="contact-wrapper__text">
             Your email:
             <br />
             <input type="email" name="email" required onChange={handleChange} />
           </label>
         </p>
-        <p className="contact-wrapper__text">
-          <label>
+        <p>
+          <label className="contact-wrapper__text">
             Message:
             <br />
             <textarea name="message" required onChange={handleChange} />
