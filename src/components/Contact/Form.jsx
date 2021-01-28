@@ -1,9 +1,7 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { navigate } from 'gatsby-link';
 import PortfolioContext from '../../context/context';
-
-
-
+import classNames from 'classnames'
 
 function encode(data) {
   return Object.keys(data)
@@ -12,12 +10,13 @@ function encode(data) {
 }
 
 const Form = () => {
-  const [state, setState] = React.useState({});
+  const [state, setState] = useState({});
   const { contact } = useContext(PortfolioContext);
   const { cta2, btnContact } = contact;
   
 
   const handleChange = (e) => {
+    console.log(e.target.name)
     setState({ ...state, [e.target.name]: e.target.value })
   };
 
@@ -36,8 +35,13 @@ const Form = () => {
       .catch((error) => alert(error));
   };
 
+  const inputClass = (name) => classNames({
+    'input2': true,
+    'has-val': state[name]
+  })
+
   return (
-    <section id="form">
+    <section id="form" test={console.log({state})}>
       <p className="contact-wrapper__text">{cta2}</p>
       <div className="wrap-contact2">
         <form
@@ -57,17 +61,17 @@ const Form = () => {
             </label>
           </span>
           <div className="wrap-input2">
-            <input className="input2" type="text" name="name" required  onChange={handleChange} />
+            <input className={inputClass('name')} type="text" name="name" required  onChange={handleChange} />
             <span className="focus-input2" data-placeholder="Name"></span>
           </div>
 
           <div className="wrap-input2">
-            <input className="input2" type="text" name="email" required  onChange={handleChange}/>
+            <input className={inputClass('email')} type="text" name="email" required  onChange={handleChange}/>
             <span className="focus-input2" data-placeholder="Email"></span>
           </div>
 
           <div className="wrap-input2">
-            <textarea className="input2" name="message" required  onChange={handleChange}></textarea>
+            <textarea className={inputClass('message')} name="message" required  onChange={handleChange}></textarea>
             <span className="focus-input2" data-placeholder="Message"></span>
           </div>
           <div className="contact-wrapper__text">
