@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "ian-arthur-montgomery",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A portfolio website for Ian Arthur Montgomery",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "gatsby": "^2.23.7",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.31.1",
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-manifest": "^2.4.12",
     "gatsby-plugin-offline": "^3.2.11",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
+    "jquery": "^3.5.1",
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
@@ -52,10 +54,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/ian-montgomery/ianarthur.xyz"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ian-montgomery/ianarthur.xyz/issues"
   },
   "husky": {
     "hooks": {
