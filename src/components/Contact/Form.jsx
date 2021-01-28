@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { navigate } from 'gatsby-link';
 import PortfolioContext from '../../context/context';
-import validate from '../Contact/validate';
 
-// validate($)
+
+
 
 function encode(data) {
   return Object.keys(data)
@@ -15,9 +15,10 @@ const Form = () => {
   const [state, setState] = React.useState({});
   const { contact } = useContext(PortfolioContext);
   const { cta2, btnContact } = contact;
+  
 
   const handleChange = (e) => {
-    setState({ ...state, [e.target.name]: e.target.value });
+    setState({ ...state, [e.target.name]: e.target.value })
   };
 
   const handleSubmit = (e) => {
@@ -40,7 +41,7 @@ const Form = () => {
       <p className="contact-wrapper__text">{cta2}</p>
       <div className="wrap-contact2">
         <form
-          className="contact2-form validate-form"
+          className="contact2-form"
           name="contact"
           method="post"
           action="thanks"
@@ -50,27 +51,24 @@ const Form = () => {
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
-          <p hidden>
+          <span hidden>
             <label>
               Don’t fill this out: <input name="bot-field" onChange={handleChange} />
             </label>
-          </p>
-          <div className="wrap-input2 validate-input" data-validate="Name is required">
-            <input className="input2" type="text" name="name" />
-            <span className="focus-input2" data-placeholder="NAME"></span>
+          </span>
+          <div className="wrap-input2">
+            <input className="input2" type="text" name="name" required  onChange={handleChange} />
+            <span className="focus-input2" data-placeholder="Name"></span>
           </div>
 
-          <div
-            className="wrap-input2 validate-input"
-            data-validate="Valid email is required: ex@abc.xyz"
-          >
-            <input className="input2" type="text" name="email" />
-            <span className="focus-input2" data-placeholder="EMAIL"></span>
+          <div className="wrap-input2">
+            <input className="input2" type="text" name="email" required  onChange={handleChange}/>
+            <span className="focus-input2" data-placeholder="Email"></span>
           </div>
 
-          <div className="wrap-input2 validate-input" data-validate="Message is required">
-            <textarea className="input2" name="message"></textarea>
-            <span className="focus-input2" data-placeholder="MESSAGE"></span>
+          <div className="wrap-input2">
+            <textarea className="input2" name="message" required  onChange={handleChange}></textarea>
+            <span className="focus-input2" data-placeholder="Message"></span>
           </div>
           <div className="contact-wrapper__text">
             <button className="cta-btn cta-btn--contact" type="submit">
