@@ -1,6 +1,9 @@
 import React, { useContext } from 'react';
 import { navigate } from 'gatsby-link';
 import PortfolioContext from '../../context/context';
+import validate from '../Contact/validate';
+
+// validate($)
 
 function encode(data) {
   return Object.keys(data)
@@ -8,7 +11,7 @@ function encode(data) {
     .join('&');
 }
 
-export default function Form() {
+const Form = () => {
   const [state, setState] = React.useState({});
   const { contact } = useContext(PortfolioContext);
   const { cta2, btnContact } = contact;
@@ -33,50 +36,51 @@ export default function Form() {
   };
 
   return (
-    <div className="contact-wrapper">
+    <section id="form">
       <p className="contact-wrapper__text">{cta2}</p>
-      <form
-        name="contact"
-        method="post"
-        action="thanks"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-      >
-        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label className="contact-wrapper__text">
-            Your name:
-            <br />
-            <input type="text" name="name" required onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label className="contact-wrapper__text">
-            Your email:
-            <br />
-            <input type="email" name="email" required onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label className="contact-wrapper__text">
-            Message:
-            <br />
-            <textarea name="message" required onChange={handleChange} />
-          </label>
-        </p>
-        <p className="contact-wrapper__text">
-          <button className="cta-btn cta-btn--contact" type="submit">
-            {btnContact}
-          </button>
-        </p>
-      </form>
-    </div>
+      <div className="wrap-contact2">
+        <form
+          className="contact2-form validate-form"
+          name="contact"
+          method="post"
+          action="thanks"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}
+        >
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+            </label>
+          </p>
+          <div className="wrap-input2 validate-input" data-validate="Name is required">
+            <input className="input2" type="text" name="name" />
+            <span className="focus-input2" data-placeholder="NAME"></span>
+          </div>
+
+          <div
+            className="wrap-input2 validate-input"
+            data-validate="Valid email is required: ex@abc.xyz"
+          >
+            <input className="input2" type="text" name="email" />
+            <span className="focus-input2" data-placeholder="EMAIL"></span>
+          </div>
+
+          <div className="wrap-input2 validate-input" data-validate="Message is required">
+            <textarea className="input2" name="message"></textarea>
+            <span className="focus-input2" data-placeholder="MESSAGE"></span>
+          </div>
+          <div className="contact-wrapper__text">
+            <button className="cta-btn cta-btn--contact" type="submit">
+              {btnContact}
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
   );
-}
+};
+
+export default Form;
