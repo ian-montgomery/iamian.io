@@ -16,7 +16,6 @@ const Form = () => {
   
 
   const handleChange = (e) => {
-    console.log(e.target.name)
     setState({ ...state, [e.target.name]: e.target.value })
   };
 
@@ -41,7 +40,7 @@ const Form = () => {
   })
 
   return (
-    <section id="form" test={console.log({state})}>
+    <section id="form" >
       <p className="contact-wrapper__text">{cta2}</p>
       <div className="wrap-contact2">
         <form

@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
   paragraphOne: 'I used to sell vegetables, and now I solve problems with computers.',
   paragraphTwo: "With over ten years of management experience tackling Organic retail's challenges, I am now a full stack developer who wants to help you tackle your challenges and make software that is a pleasure to use.",
-  paragraphThree: 'Please hire me!',
+  paragraphThree: "Let's work together!",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
   cta: 'Contact me'
 };
@@ -36,15 +36,15 @@ export const projectsData = [
     url: 'https://leaf-it-to-me.herokuapp.com/',
     repo: 'https://github.com/ian-montgomery/Leaf-it-to-me',
   },
-//   {
-//     id: nanoid(),
-//     img: 'chalkboard.png',
-//     title: 'Chalkboard',
-//     info: 'A place to chalk about anything you would like. Leave a message for the world!',
-//     info2: '',
-//     url: 'https://chalkboard-2020.herokuapp.com/',
-//     repo: 'https://github.com/ian-montgomery/chalkboard',
-//   },
+  {
+    id: nanoid(),
+    img: 'EDA_Graduation_2020-369.JPG',
+    title: 'My GitHub Repo',
+    info: 'At Enspiral Dev Academy, I worked on many small projects in groups with other students. We were given one day to come up with an app idea, then plan, develop, launch and present it to the larger cohort each week. Using Agile development practices, we learned to work quickly and effectively to produce web apps.',
+    info2: 'Click through to my GitHub repo so see some of the source code from the projects I worked on.',
+    url: 'https://github.com/ian-montgomery?tab=repositories',
+    repo: 'https://github.com/ian-montgomery?tab=repositories',
+  },
 ];
 
 // CONTACT DATA
