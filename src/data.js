@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'EDA_Graduation_2020-369.JPG',
     title: 'My GitHub Repo',
     info: 'At Enspiral Dev Academy, I worked on many small projects in groups with other students. We were given one day to come up with an app idea, then plan, develop, launch and present it to the larger cohort each week. Using Agile development practices, we learned to work quickly and effectively to produce web apps.',
-    info2: 'Click through to my GitHub repo so see some of the source code from the projects I worked on.',
+    info2: 'Click through to my GitHub repo to see some of the source code from the projects I worked on.',
     url: 'https://github.com/ian-montgomery?tab=repositories',
     repo: 'https://github.com/ian-montgomery?tab=repositories',
   },
