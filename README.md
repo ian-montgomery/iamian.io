@@ -2,4 +2,4 @@
 
 Feel free to provide feedback or offer me a job! 
 
-<a href="ianarthur.xyz">ianarthur.xyz</a>
+<a href="https://www.ianarthur.xyz/">ianarthur.xyz</a>
