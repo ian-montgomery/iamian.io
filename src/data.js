@@ -36,15 +36,15 @@ export const projectsData = [
     url: 'https://leaf-it-to-me.herokuapp.com/',
     repo: 'https://github.com/ian-montgomery/Leaf-it-to-me',
   },
-  {
-    id: nanoid(),
-    img: 'chalkboard.png',
-    title: 'Chalkboard',
-    info: 'A place to chalk about anything you would like. Leave a message for the world!',
-    info2: '',
-    url: 'https://chalkboard-2020.herokuapp.com/',
-    repo: 'https://github.com/ian-montgomery/chalkboard',
-  },
+//   {
+//     id: nanoid(),
+//     img: 'chalkboard.png',
+//     title: 'Chalkboard',
+//     info: 'A place to chalk about anything you would like. Leave a message for the world!',
+//     info2: '',
+//     url: 'https://chalkboard-2020.herokuapp.com/',
+//     repo: 'https://github.com/ian-montgomery/chalkboard',
+//   },
 ];
 
 // CONTACT DATA
