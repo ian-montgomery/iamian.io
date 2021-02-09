@@ -18,9 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'EDA_Graduation_2020-157.JPG',
-  paragraphOne: 'I used to sell vegetables, and now I solve problems with computers.',
-  paragraphTwo: "With over ten years of management experience tackling Organic retail's challenges, I am now a full stack developer who wants to help you tackle your challenges and make software that is a pleasure to use.",
-  paragraphThree: "Let's work together!",
+  paragraphOne: "Hello! I'm a full stack developer with heaps of management experience.",
+  paragraphTwo: "I started my career working in tech and media but then moved to New Zealand and spent six wonderful years managing a flagship Organic supermarket.",
+  paragraphThree: "Through my experience in Organics and all the challenges we face in food systems, I discovered I have a knack and passion for problem-solving. Committed to using my skills to work in a dynamic and exciting field that allows me to tackle all kinds of new problems, big and small, I have transitioned back into tech with a lot more management and business experience under my belt.",
+  paragraphFour:"Let's work on something together!",
   resume: 'https://nx4656.your-storageshare.de/s/kjQRzZaDJ8SnLrK', // if no resume, the button will not show up
   cta: 'Contact me'
 };
