@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Ian Arthur Montgomery | Full Stack Developer',
   lang: 'en', // e.g: en, es, fr, jp
-  description: "Welcome to Ian Arthur Montgomery's portfolio", 
+  description: "Welcome to Ian Arthur Montgomery's portfolio",
 };
 
 // HERO DATA
