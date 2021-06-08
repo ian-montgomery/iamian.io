@@ -1,5 +1,5 @@
-# This is my first porotfolio site! 
+# A work-in-progress porotfolio site
 
-Feel free to provide feedback or offer me a job! 
 
-<a href="https://www.ianarthur.xyz/">ianarthur.xyz</a>
+
+<a href="https://www.iamian.io/">iamian.io</a>
