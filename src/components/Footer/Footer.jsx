@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          Copyright All Rights Reserved Ian Arthur Montgomery © {new Date().getFullYear()}
+        © {new Date().getFullYear()} Ian Montgomery
         </p>
 
         {isEnabled && <GithubButtons />}
