@@ -40,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'EDA_Graduation_2020-369.JPG',
-    title: 'My GitHub Repo',
+    title: 'My GitHub',
     info: 'Enspiral Dev Academy is an intensive full-immersion bootcamp modelling an apprenticeship with over 700 hours of training as a full stack web developer. Practical project-based experience building web applications using various technologies. Check out my github to see some of the work we did.',
     info2: 'Click through for some source code.',
     url: 'https://github.com/ian-montgomery?tab=repositories',
