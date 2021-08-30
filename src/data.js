@@ -22,7 +22,6 @@ export const aboutData = {
   paragraphTwo: "I started my career working in tech and media but then moved to New Zealand and spent six years managing a flagship Organic supermarket.",
   paragraphThree: "Through my experience in Organics and all the challenges we face in food systems, I discovered I have a knack and passion for problem-solving. Committed to using my skills to work in a dynamic and exciting field that allows me to tackle all kinds of new problems, big and small, I have transitioned back into tech with a lot more management and business experience under my belt.",
   paragraphFour:"Let's work on something together",
-  resume: 'https://nextcloud.iamian.io/s/yXwmWGG8WaDDzgq', 
   cta: 'Contact me'
 };
 
